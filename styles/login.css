@@ -1,0 +1,88 @@
+  .sign-in-form-side {
+    margin-left: 40px;
+  }
+
+  .sign-in-container {
+    background-color: transparent; /* Set background color to transparent */
+    backdrop-filter: blur(5px); /* This will blur the background */
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 5px 10px #131C40;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+  .sign-in form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(66, 38, 128, 0.1);
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .password-input-field input {
+    position: relative;
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .password-input-container {
+    display: flex;
+    /* position: relative; */
+    flex-direction: row;
+    background-color: #e0e0e0;
+  }
+
+  .password-toggle-button {
+    /* position: absolute; */
+    top: 50%;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .password-toggle-button svg {
+    fill: black; /* Set fill color to black */
+  }
+
+  .password-toggle-button:hover {
+    background-color: white;
+  }
+
+  .forgot-password-link {
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .forgot-password-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+
+  .forgot-password-link a:hover {
+    text-decoration: underline;
+  }
+
+  button[type="submit"] {
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+  }

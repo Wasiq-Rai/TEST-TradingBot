@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .SignUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .sign-up-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  .sign-up-form-side{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+
+
+  }
+
+  .sign-up-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 40px;
+    padding: 5% 5%;
+    margin: 0% 10%;
+    border: 2px solid #131C40;
+    border-radius: 20px;
+    background-color: #131C40;
+  }
+  
+  .sign-up {
+    margin-left: 40px;
+    /* padding: 10%; */
+
+  }
+  
+  .bullet-list {
+    flex: 1;
+    margin-left: 80px;
+
+  }
+  
+  .bullet-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .bullet-content li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .bullet-content span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .sub-header {
+    max-width: 600px;
+    margin-bottom: 40px;
+  }
+  
+  .sub-header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .sub-header p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+
+  .name-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .name-row  input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .checkbox {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .checkbox input {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    width: 80%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 50px;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: black;
+    cursor: not-allowed;
+  }
